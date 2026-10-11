@@ -42,4 +42,4 @@ M.Sc. in Artificial Intelligence and Health (AIBH) — University of Turin (Ongo
 
 B.Sc. in Computer Science — University of Cagliari (110/110 cum laude, A.Y. 2025–2026)[cite: 14]
 
-📫 Connect with me: GitHub Profile
+📫 Connect with me: [GitHub Profile](https://github.com/leonardomelis20)
