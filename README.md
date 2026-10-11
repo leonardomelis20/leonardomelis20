@@ -1,39 +1,45 @@
-# 👋 Ciao, sono Leonardo Melis
+# 👋 Hi, I'm Leonardo Melis
 
-Graduated in **Computer Science** (*110/110 cum laude*) at the University of Cagliari and currently pursuing my **M.Sc. in Artificial Intelligence and Health (AIBH)** at the University of Turin.
+I hold a **B.Sc. in Computer Science** from the University of Cagliari (**110/110 cum laude**) and am currently pursuing an **M.Sc. in Artificial Intelligence and Health (AIBH)** at the University of Turin.
 
-My vision is to bridge **High-Performance Computing, Deep Learning, and Clinical Medicine**—with a strong focus on **Computational Oncology** and **Clinical AI Prediction**. I build trustworthy, patient-aware AI systems designed to support oncologists, improve early cancer detection, and accelerate biomedical research.
+My interests lie at the intersection of **Computer Vision, Deep Learning, and AI for Healthcare**, with a growing focus on computational pathology and computational oncology. I aim to develop rigorous, patient-aware machine learning methods that can contribute to biomedical research and, ultimately, clinical decision support.
 
 ---
 
-## 🔬 Featured Research
+## 🔬 Featured Project
+
 ### 🩸 [Multi-Species Malaria Parasite Classification Pipeline](https://github.com/leonardomelis20/malaria-detection-pipeline)
-An end-to-end computational pathology framework comparing **Radiomic Features**, **Deep Embeddings**, and **End-to-End Fine-Tuning** (Head-Only, Full, LoRA) across 6 heterogeneous backbones, including domain-specific foundation models (*DinoBloom*, *RedDino*).
+My B.Sc. thesis project investigates automated classification of *Plasmodium* species from microscopic blood smear images using the MP-IDB dataset[cite: 20, 30].
 
-* **Patient-Aware Engineering:** Designed group-ID splits to completely eliminate patient-level data leakage.
-* **Key Finding:** Achieved **0.9789 Macro F1** using `ConvNeXt Tiny`, proving that linear probing on robust pre-trained features outperforms heavy fine-tuning under medical data scarcity.
-* **Tech Stack:** PyTorch, torchvision, timm, Hugging Face (Transformers & PEFT), scikit-image, scikit-learn, OpenCV, HDF5.
+- **Comparative Evaluation:** Benchmarked handcrafted radiomic features, deep feature representations, and end-to-end fine-tuning across multiple computer vision architectures[cite: 20, 27].
+- **Patient-Aware Validation:** Designed group-based data partitioning (`group_id`) to prevent patient-level data leakage between training, validation, and test sets[cite: 27, 39, 42].
+- **Key Result:** Achieved a **Macro F1-score of 0.9788** with `ConvNeXt Tiny` embeddings and Logistic Regression in the reported intra-dataset evaluation[cite: 59].
+- **Technologies:** Python, PyTorch, `torchvision`, `timm`, Hugging Face (`transformers`, `peft`), `scikit-learn`, `scikit-image`, OpenCV, and `h5py`[cite: 36, 37, 48].
 
----
-
-## 🎯 Clinical AI & Research Focus
-
-- **Computational Oncology & Early Detection:** Developing predictive AI frameworks for cell classification, digital pathology, and early-stage cancer risk modeling.
-- **Patient-Aware & Robust ML:** Building leak-free validation protocols, handling extreme class imbalances, and evaluating cross-distribution (OOD) generalization.
-- **Scalable AI Infrastructure:** Deploying lightweight, reproducible pipelines (C/Python, Docker) ready for cloud-native medical platforms (e.g., Scaleway / AWS).
+*The project reflects my interest in combining sound experimental methodology with practical machine learning for biomedical image analysis.*
 
 ---
 
-## 🛠 Technical Stack
+## 🎯 Research Interests
+
+- **Computational Oncology:** Exploring AI methods for cancer-related image analysis, risk prediction, and biomedical research.
+- **Medical AI & Computer Vision:** Investigating deep learning representations and predictive models for biomedical data.
+- **Reliable Machine Learning:** Patient-aware validation, class imbalance handling, model evaluation, and out-of-distribution (OOD) generalization[cite: 20, 27, 54].
+- **Resource-Efficient Deep Learning:** Exploring parameter-efficient fine-tuning (LoRA) and memory optimization (gradient accumulation) for constrained computational environments[cite: 51, 53].
+
+---
+
+## 🛠 Technical Skills
 
 ```text
-Languages     │ Python (3.12), C, C++, SQL, Bash
-AI & ML       │ PyTorch, Timm, Hugging Face (PEFT/LoRA), Scikit-Learn, OpenCV, Albumentations
-Data & HPC    │ HDF5 (h5py), Pandas, NumPy, CUDA (Gradient Accumulation, Memory Optimization)
-DevOps/Tools  │ Git, Linux/Unix, Docker, VS Code, Markdown
-🎓 Academic Path
-M.Sc. in Artificial Intelligence and Health (AIBH) – Università degli Studi di Torino (Current)
+Languages       │ Python (3.12), C, C++, SQL, Bash
+AI & ML         │ PyTorch, torchvision, timm, scikit-learn
+Computer Vision │ OpenCV, scikit-image, Albumentations
+Model Adaptation│ Hugging Face Transformers, PEFT, LoRA
+Data & Tools    │ NumPy, Pandas, HDF5 (h5py), Git, Linux, VS Code
+🎓 Education
+M.Sc. in Artificial Intelligence and Health (AIBH) — University of Turin (Ongoing)
 
-B.Sc. in Computer Science – Università degli Studi di Cagliari (110/110 cum laude)
+B.Sc. in Computer Science — University of Cagliari (110/110 cum laude, A.Y. 2025–2026)[cite: 14]
 
 📫 Connect with me: GitHub Profile
